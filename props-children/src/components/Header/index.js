@@ -9,7 +9,7 @@ const Header = () => {
           <ul>
             <li>Home</li>
             <li>Kids</li>
-            <li><img className="logo-user" src="https://netflix-clone-iaeluk.netlify.app/user.png" /></li>
+            <li><img className="logo-user" src="https://netflix-clone-iaeluk.netlify.app/user.png" alt=""/></li>
           </ul>
       </header>
         </>

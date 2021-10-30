@@ -14,13 +14,13 @@ function Backgrounds() {
     return (
       <>
       <div className="backgrounds" style={{
-        background: 'rgb(0,0,0)',
+        backgroundColor: 'rgb(0,0,0)',
         background: `linear-gradient(90deg, rgba(0, 0, 0, 0.972) 30%, rgba(0,0,0,0) 100%, rgba(0,0,0,0) 100%), url("${background[random()]}")`,
         backgroundSize: 'cover',
       }}>
       <Info info="Laurie é levada às pressas para o hospital com ferimentos graves, acreditando que ela finalmente matou seu torturador ao longo da vida. Mas quando Michael consegue se livrar da armadilha de Laurie, seu ritual de banho de sangue recomeça.">
-      <a target="_blank" href="https://www.youtube.com/watch?v=Ljhe6DHyPVA">Assistir</a>
-      <a>+ Minha Lista</a>
+      <a rel="noreferrer" target="_blank" href="https://www.youtube.com/watch?v=Ljhe6DHyPVA">Assistir</a>
+      <a href="#">+ Minha Lista</a>
       </Info>
       </div>
       </>
