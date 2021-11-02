@@ -1,9 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-
-
+import './styles/index.css';
+import App from './container/App';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,7 +9,4 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-
-
 
